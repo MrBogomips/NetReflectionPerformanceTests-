@@ -7,7 +7,8 @@ namespace NetReflectionPerformanceTests;
 
 [SimpleJob(targetCount: 5)]
 [MinColumn, MaxColumn, MeanColumn, MedianColumn]
-[MarkdownExporter, AsciiDocExporter, HtmlExporter, CsvExporter, RPlotExporter]
+//[MarkdownExporter, AsciiDocExporter, HtmlExporter, CsvExporter, RPlotExporter]
+[MarkdownExporter]
 public class PerformanceTests
 {
 	private readonly DemoClass demo = new();
