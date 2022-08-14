@@ -6,7 +6,7 @@ using BenchmarkDotNet.Engines;
 namespace NetReflectionPerformanceTests;
 
 [SimpleJob(targetCount: 5)]
-[MinColumn, MaxColumn, MeanColumn, MedianColumn]
+[MinColumn, MaxColumn, MeanColumn]
 //[MarkdownExporter, AsciiDocExporter, HtmlExporter, CsvExporter, RPlotExporter]
 [MarkdownExporter]
 public class PerformanceTests
